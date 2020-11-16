@@ -13,7 +13,7 @@ public class DataBase {
         String user="postgres";
         String password="1003134225";
         String url="jdbc:postgresql://localhost:5432/postgres";
-        connection=DriverManager.getConnection(url,user,password);
+        connection=DriverManager.getConnection(url,user,password);//
     }
     public Connection getConnection() {
         return connection;
