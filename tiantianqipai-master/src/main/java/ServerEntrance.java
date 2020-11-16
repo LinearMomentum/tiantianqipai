@@ -8,13 +8,11 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.slf4j.Slf4j;
 
 
+@Slf4j
 public class ServerEntrance {
-
-    private static final Logger log = LoggerFactory.getLogger(ServerEntrance.class);
 
     public static void main(String[] args) {
         ServerEntrance server = new ServerEntrance();
