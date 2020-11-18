@@ -22,4 +22,10 @@ public class Constants {
     public final static int MESSAGE_HEAD1_LENGTH = 1;
 
     public final static int MESSAGE_HEAD2_LENGTH = 1;
+    public final static String DATABASE_USERNAME = "postgres";
+
+    public final static String DATABASE_PASSWORD = "1003134225";
+
+    public final static String DATABASE_URL = "jdbc:postgresql://localhost:5432/postgres";
+    public final static int DATABASE_COLUMNS = 5;
 }
